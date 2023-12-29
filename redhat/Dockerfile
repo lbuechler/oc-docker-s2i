@@ -2,5 +2,7 @@
 
 FROM registry.access.redhat.com/ubi7:latest
 
-CMD ["/bin/bash", "-c", "sleep infinity"]
-# CMD ["/bin/bash", "-c", "--", "while true; do sleep 30; done;"]
+# CMD ["/bin/bash", "-c", "sleep infinity"]
+CMD ["/bin/bash", "-c", "--", "while true; do sleep 30; done;"]
+# see commenting changes made in the 2 lines above by Lance Buechler
+#
